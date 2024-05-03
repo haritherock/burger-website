@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/burger-website/static/css/main.73998415.css",
+    "main.js": "/burger-website/static/js/main.9b44980b.js",
+    "static/js/453.84a66db4.chunk.js": "/burger-website/static/js/453.84a66db4.chunk.js",
+    "static/media/burger-wrap.jpg": "/burger-website/static/media/burger-wrap.1aa1a6a20555d7122fe2.jpg",
+    "static/media/RED-BURGER.otf": "/burger-website/static/media/RED-BURGER.829039efe2edb113a80a.otf",
+    "static/media/Bobs-Burgers.ttf": "/burger-website/static/media/Bobs-Burgers.10293e31671fffd9d8bf.ttf",
+    "index.html": "/burger-website/index.html",
+    "main.73998415.css.map": "/burger-website/static/css/main.73998415.css.map",
+    "main.9b44980b.js.map": "/burger-website/static/js/main.9b44980b.js.map",
+    "453.84a66db4.chunk.js.map": "/burger-website/static/js/453.84a66db4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73998415.css",
+    "static/js/main.9b44980b.js"
+  ]
+}
