@@ -1,0 +1,71 @@
+.logo-container{
+    display: flex;
+}
+
+/* .header-container{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.logoname{
+    color: goldenrod;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 22px;
+}
+.mainmenu{
+    display: flex;
+    justify-content: space-around;
+}
+.mainmenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.mainmenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainmenu ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    color: red;
+}
+.hamburger-icon{
+    color: white;
+    font-size: 1.5rem;
+}
+/* .toggle-bar{
+    cursor: pointer;
+    display: none;
+}
+.menu-line{
+    height: 3px;
+    width: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 3px;
+}
+
+
+@media all and (max-width:811px){
+    .mainmenu ul{
+        flex-direction: column;
+        display: none;
+    }
+    .mainmenu li{
+        display: block;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .show-menu{
+        display: block;
+    }
+    .mainmenu{
+        padding-top: 2rem;
+    }
+} */

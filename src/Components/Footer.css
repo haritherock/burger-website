@@ -1,0 +1,186 @@
+/* .Footer{
+    width: 1400px;
+    margin: 0 auto;
+} */
+.Footer .logo{
+    margin-top: 2rem;
+    text-align: start;
+}
+/* .footer-container{
+    padding: 2rem 0;
+    width: 1300px;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+} */
+.social{
+    line-height: 2.5rem;
+}
+.social h4{
+    color: rgb(158, 148, 148);
+    font-size: medium;
+}
+.social p{
+    color: white;
+    font-size: large;
+    padding-top: 2rem;
+}
+.social-icons a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.social-icons a:hover{
+    text-decoration: underline;
+    color: rgb(214, 7, 7);
+    text-underline-offset: 0.5rem;
+}
+.Footer .logo a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.address{
+    color: white;
+    font-size: 22px;
+    max-width: 400px;
+    padding-bottom: 2rem;
+}
+.address span{
+    display: block;
+}
+.address-subcontainer{
+    display: block;
+    text-align: left;
+}
+.address-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+}
+.number-booking p{
+    color: white;
+    text-align: right;
+    font-size: large;
+}
+.number-booking p span{
+    display: block;
+}
+.btn-book{
+    padding: 12px 20px;
+    background-color:  rgb(214, 7, 7);
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+.address-subcontainer a{
+    text-decoration: none;
+    color: red;
+    font-size: large;
+    font-weight: 600;
+}
+.newsletter-container h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1rem;
+}
+.newsletter-container p{
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.newsletter-container{
+    text-align: left;
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+}
+.email{
+    height: 50px;
+    background-color: black;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 28, 28);
+}
+.email input{
+    height: 100%;
+    max-width: 650px;
+    padding-left: 50px;
+    font-size: 18px;
+    outline: none;
+    /* border-radius: 10px;
+    border: 2px solid gray; */
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+.email-icon{
+    position: relative;
+    right: 27.3rem;
+    top: 6px;
+    font-size: 24px;
+    color: grey;
+}
+.email button{
+    padding: 13px 37px;
+    background-color:  rgb(214, 7, 7);
+    border-radius: 10px;
+    border: 2px solid grey;
+    font-size: 14px;
+    color: white;
+}
+.footer-mainmenu{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+}
+.footer-mainmenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 22px;
+    justify-content: center;
+}
+.footer-mainmenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.footer-mainmenu{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid grey;
+}
+.copyright{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.copyright p{
+    color: grey;
+    font-size: medium;
+}
+.copyright p span{
+    color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:490px){
+    .email button{
+        top: -3rem;
+        position: relative;
+        left: 9rem;
+    }
+}
+

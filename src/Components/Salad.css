@@ -1,0 +1,36 @@
+.Salad-img{
+    width: 350px;
+}
+.saladname{
+    font-size: large;
+    color: white;
+    padding-bottom: 12px;
+}
+.salad-para{
+    font-size: medium;
+    color: white;
+    padding-bottom: 12px;
+}
+.Salad-label{
+    text-align: left;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(30 27 27);;
+    
+}
+.Salad-label:hover{
+    box-shadow: 2px 6px 10px 1px rgba(255, 255, 255, 0.2), -2px -3px 10px 1px rgba(255, 255, 255, 0.2);
+}
+.price{
+    color: red;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+.salad-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    padding-top: 4rem;
+}
